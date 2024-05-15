@@ -1,0 +1,83 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  background-color: #1a1a1a; /* Dark background */
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif; /* Elegant font */
+}
+
+/* Header Styles */
+header {
+  background-color: #333; /* Dark gray header */
+  padding: 20px;
+  text-align: center;
+  font-size: 36px; /* Majestic font size */
+  font-weight: bold;
+  text-transform: uppercase; /* Commanding presence */
+}
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  color: #fff; /* White links */
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: all 0.3s ease; /* Smooth transitions */
+}
+
+nav a:hover {
+  background-color: #555; /* Hover effect */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px; /* Godly headline size */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px; /* Divine paragraph size */
+  line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333; /* Dark footer */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Shimmering Effect */
+.shimmer {
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.8), rgba(255,255,255,0));
+  display: inline-block;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200%;
+  }
+  100% {
+    background-position: 200%;
+  }
+}
